@@ -1,0 +1,222 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: auto;
+    width: 1360px;
+    background-color: #E1D4C9;
+    ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .title {
+    display: flex;
+    justify-content: flex;
+    gap: 40px;
+}
+
+header .menu {
+    display: flex;
+    gap: 8px;
+}
+
+header .title .names {
+    font: 600 16px Inter;
+    color: #403F3D;
+}
+
+header .menu img {
+    width: 20px;
+    height: 20px;
+}
+
+.preview {
+    background-image: url(img-hero.svg);
+    border-radius: 40px;
+}
+
+.preview .fone {
+    width: 530px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.preview .fone h1 {
+
+    font: 600 72px Inter;
+    font-style: normal;
+    color: #E1D4C9;
+
+}
+
+.preview .fone h1 span {
+    color: #B0907A;
+    font-style: italic;
+}
+
+.preview .fone .text {
+    color: #E1D4C9;
+    font: 400 16px Inter;
+}
+
+.preview .fone .button {
+    width: 200px;
+    padding: 20px 78px 20px 78px;
+    border-radius: 100px;
+    background-color: #E1D4C9;
+    color: #403F3D;
+    font: 600 16px Inter;
+    text-align: center;
+}
+
+.block {
+    /* display: flex; */
+    width: 1360px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.block .block1 .img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block h1 {
+    font: 600 60px Inter;
+    font-style: normal;
+    color: #403F3D;
+    margin-bottom: 40px;
+}
+
+.block h1 span {
+    font: 600 60px Inter;
+    font-style: Italic;
+    color: #B0907A;
+}
+
+.block .text1 {
+    font: 600 24px Inter;
+    font-style: normal;
+    color: #403F3D;
+}
+
+.block .block1 .block2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 480px;
+    margin: auto;
+}
+
+.block .text2 {
+    font-weight: 400 16px Inter;
+    font-style: normal;
+    font-size: 16px;
+    color: #403F3D;
+
+}
+.tableimage-block {
+    margin-top: 100px;
+
+}
+.tableimage-block .container-all {
+    display: flex;
+    gap: 40px;
+}
+.tableimage-block .container-all .leftimage-block {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.tableimage-block .container-all .rightimage-block {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.tableimage-block h1 {
+
+font: 600 60px Inter;
+font-style: normal;
+color:  #403F3D;
+;
+}
+.tableimage-block h1 span {
+   color:  #B0907A;
+/* line-height: 125%; */
+font: 600 60px Inter;
+font-style: Italic;
+}
+.appfunctions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .appfunctions .info h2 {
+    
+font: 600 60px Inter;
+font-style: normal;
+color: #403F3D;
+
+ }
+ .appfunctions .info h2 span {
+ 
+font: 600 60px Inter;
+font-style: italic;
+color: #B0907A;
+;
+ }
+ .appfunctions .info .ordering {
+    color:  #403F3D;
+font: 400 16px Inter;
+font-style: normal;
+ }
+ .appfunctions .buttons {
+    display: flex;
+    gap: 20px;
+ }
+ .appfunctions .buttons .apple {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    width: 200px;
+    border: 1px solid #665F55;
+    border-radius: 100px;
+    background-color: #E1D4C9;
+ }
+ .appfunctions .buttons .apple .store {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+    
+ }
+ .appfunctions .buttons .apple .store .Available {
+color:  #403F3D;
+font: 600 10px Inter;
+font-style: normal;
+text-align: center;
+ }
+  .appfunctions .buttons .apple .store .name {
+  color:  #403F3D; 
+font: 600 16px Inter;
+font-style: normal;
+
+  }
+   .appfunctions .buttons .apple img{
+    margin-left: 20px ;
+   }
+
+
+ 
+
+
