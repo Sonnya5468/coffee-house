@@ -9,11 +9,19 @@ body {
     background-color: #E1D4C9;
 
 }
-
+.headerwrapper {
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: #E1D4C9 ;
+}
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+   width: 1440px;
+   margin: auto;
 }
 
 header nav .waystoconnect {
@@ -26,6 +34,7 @@ header .menu {
     display: flex;
     justify-content: space-between;
     gap: 8px;
+    text-decoration: underline;
 }
 
 header nav .waystoconnect .mainnav {
@@ -48,7 +57,7 @@ header .menu .cuplogo {
 .mainpresentaion-website {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 .mainpresentaion-website .container1 {
@@ -64,6 +73,9 @@ header .menu .cuplogo {
     font-style: normal;
     text-align: center;
     color: #403F3D;
+}
+.mainpresentaion-website .container1 h1:hover {
+    text-shadow: #353433 0 0 2px ;
 }
 
 .mainpresentaion-website .container1 h1 span {
@@ -86,6 +98,11 @@ header .menu .cuplogo {
     border-radius: 100px;
     background-color: #665F55;
     border: 1px solid #665F55;
+}
+.mainpresentaion-website .buttons .coffee:hover {
+   background-color: #5f5a52;
+   border: 1.5px solid #59534c;
+
 }
 
 .mainpresentaion-website .buttons .curcal {
@@ -131,6 +148,10 @@ header .menu .cuplogo {
     background-color: #E1D4C9;
 
 }
+.mainpresentaion-website .buttons .tea:hover {
+    background-color: #d9cdc3;
+    border: 1.5px solid #b7afa8;
+}
 
 .mainpresentaion-website .buttons .tea .cupoftea {
     display: flex;
@@ -152,6 +173,10 @@ header .menu .cuplogo {
     border: 1px solid #C1B6AD;
     background-color: #E1D4C9;
 
+}
+.mainpresentaion-website .buttons .dessert:hover {
+    background-color: #d9cdc3;
+    border: 1.5px solid #b7afa8;
 }
 
 .mainpresentaion-website .buttons .dessert .des {

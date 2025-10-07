@@ -10,10 +10,22 @@ body {
     ;
 }
 
+.headerwrapper {
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: #E1D4C9;
+
+}
+
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1360px;
+    margin: auto;
 }
 
 header .title {
@@ -40,6 +52,7 @@ header .menu img {
 .preview {
     background-image: url(img-hero.svg);
     border-radius: 40px;
+    margin-top: 100px;
 }
 
 .preview .fone {
@@ -76,6 +89,10 @@ header .menu img {
     color: #403F3D;
     font: 600 16px Inter;
     text-align: center;
+}
+
+.preview .fone .button:hover {
+    background-color: #cdc1b6;
 }
 
 .block {
@@ -119,72 +136,90 @@ header .menu img {
 }
 
 .block .text2 {
-    font-weight: 400 16px Inter;
+    font: 400 16px Inter;
     font-style: normal;
     font-size: 16px;
     color: #403F3D;
 
 }
+
 .tableimage-block {
     margin-top: 100px;
 
 }
+
 .tableimage-block .container-all {
     display: flex;
     gap: 40px;
 }
+
 .tableimage-block .container-all .leftimage-block {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
+
 .tableimage-block .container-all .rightimage-block {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
+
 .tableimage-block h1 {
 
-font: 600 60px Inter;
-font-style: normal;
-color:  #403F3D;
-;
+    font: 600 60px Inter;
+    font-style: normal;
+    color: #403F3D;
+    ;
 }
+
 .tableimage-block h1 span {
-   color:  #B0907A;
-/* line-height: 125%; */
-font: 600 60px Inter;
-font-style: Italic;
+    color: #B0907A;
+    /* line-height: 125%; */
+    font: 600 60px Inter;
+    font-style: Italic;
 }
+
 .appfunctions {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
- .appfunctions .info h2 {
     
-font: 600 60px Inter;
-font-style: normal;
-color: #403F3D;
+}
+.appfunctions .info {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
 
- }
- .appfunctions .info h2 span {
- 
-font: 600 60px Inter;
-font-style: italic;
-color: #B0907A;
-;
- }
- .appfunctions .info .ordering {
-    color:  #403F3D;
-font: 400 16px Inter;
-font-style: normal;
- }
- .appfunctions .buttons {
+.appfunctions .info h2 {
+
+    font: 600 60px Inter;
+    font-style: normal;
+    color: #403F3D;
+
+}
+
+.appfunctions .info h2 span {
+
+    font: 600 60px Inter;
+    font-style: italic;
+    color: #B0907A;
+    ;
+}
+
+.appfunctions .info .ordering {
+    color: #403F3D;
+    font: 400 16px Inter;
+    font-style: normal;
+}
+
+.appfunctions .buttons {
     display: flex;
     gap: 20px;
- }
- .appfunctions .buttons .apple {
+}
+
+.appfunctions .buttons .apple {
     display: flex;
     gap: 8px;
     align-items: center;
@@ -192,31 +227,126 @@ font-style: normal;
     border: 1px solid #665F55;
     border-radius: 100px;
     background-color: #E1D4C9;
- }
- .appfunctions .buttons .apple .store {
+    padding: 12px 0px;
+   
+/* padding-top: 12px;
+padding-right: 20px;
+padding-bottom: 12px;
+padding-left: 20px; */
+
+
+}
+
+.appfunctions .buttons .apple .store {
     display: flex;
     flex-direction: column;
+    align-items: start;
     gap: 2px;
 
-    
- }
- .appfunctions .buttons .apple .store .Available {
-color:  #403F3D;
-font: 600 10px Inter;
+
+}
+
+.appfunctions .buttons .apple .store .Available {
+    color: #403F3D;
+    font: 600 10px Inter;
+    font-style: normal;
+    text-align: center;
+}
+
+.appfunctions .buttons .apple .store .name {
+    color: #403F3D;
+    font: 600 16px Inter;
+    font-style: normal;
+
+}
+
+.appfunctions .buttons .apple img {
+    margin-left: 20px;
+}
+footer {
+    background-color: #665F55;
+    max-width: 1360px;
+    border-radius: 40px;
+    padding: 100px;
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+footer .leftside .images {
+    display: flex;
+    gap: 12px;
+    margin-top: 40px;
+
+}
+
+footer .rightside .images2 {
+    display: flex;
+    gap: 4px;
+}
+
+footer .leftside {
+    width: 530px;
+}
+
+footer .leftside h1 {
+    color: #E1D4C9;
+    font: 600 60px Inter;
+    font-style: normal;
+}
+
+footer .leftside h1 span {
+
+    font: 600 60px Inter;
+    font-style: Italic;
+    color: #B0907A;
+
+}
+
+footer .images .imgincurcal {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    border: 1px solid #C1B6AD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+footer .rightside {
+    width: 530px;
+    /* margin-top: 35px; */
+}
+
+footer .rightside .contact {
+
+    font: 600 24px Inter;
+    font-style: normal;
+    color: #E1D4C9;
+    margin-bottom: 40px;
+}
+footer .rightside .images2 {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+footer .rightside .images3 {
+    display: flex;
+    gap: 4px;
+}
+
+footer .rightside .images2 .info {
+    font: 600 16px Inter;
 font-style: normal;
-text-align: center;
- }
-  .appfunctions .buttons .apple .store .name {
-  color:  #403F3D; 
-font: 600 16px Inter;
+color:  #E1D4C9;
+line-height: 150%
+}
+footer .rightside .images3 .info {
+    font: 600 16px Inter;
 font-style: normal;
-
-  }
-   .appfunctions .buttons .apple img{
-    margin-left: 20px ;
-   }
-
-
- 
-
-
+color:  #E1D4C9;
+line-height: 150%
+}
